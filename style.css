@@ -1,0 +1,159 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+.bg-img{
+ background: url(images/background.jpg);
+ height: 100vh;
+ background-size: cover;
+ background-position: center;
+}
+.bg-img:after{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:re=gba(0,0,0,0.7);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index:999;
+    width: 370px;
+    height: 500px;
+    padding: 60px 32px;
+    background:rgba(255,255,255, 0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0, 0.75);
+}
+.content header{
+    color:white;
+    font-size: 33px;
+    font-weight: 600;
+    margin:0 0 35px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.field{
+    position: relative;
+    height : 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255,255,255, 0.94);
+
+}
+.field span{
+    color: #222;
+    width: 40px;
+}
+.field input{
+    height: 100%;
+    width: 100%;
+    background:transparent;
+    border:none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: cursive;
+
+}
+.space{
+    margin-top: 16px;
+}
+
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+  }
+
+  .radio-item input[type='radio'] {
+    display: none;
+  }
+
+  .radio-item label {
+    color: rgb(253, 253, 253);
+    font-size: 15px;
+    font-weight:bold;
+  }
+
+  .radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #004c97;
+    background-color: transparent;
+  }
+  .radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background: #004c97;
+  }
+.extra{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.content p{
+  font-size: 16px;
+}
+
+.update-btn{
+  color: #004c97;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3e619e;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #fc2c11;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
