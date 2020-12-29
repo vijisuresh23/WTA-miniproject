@@ -50,7 +50,7 @@ $result = mysqli_query($db,"SELECT * FROM orders");
     <hr>
     <div class="admin-bg1">
 
-        <h2 id="h2">Transportation</h2>
+        <h2 id="h2">New Orders</h2>
         <table class="table table-bordered" id="table">
             <thead>
                 <tr>

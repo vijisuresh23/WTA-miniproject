@@ -32,7 +32,7 @@
                     <input type="text" placeholder="Firstname" name="fname" required>
                 </div>
                 <div class="inputfield">
-                    <label class="label" for="lname" style="color:white" ;>LasteName:</label>
+                    <label class="label" for="lname" style="color:white" ;>LastName:</label>
                     <input type="text" placeholder="Lastname" name="lname" required>
                 </div>
                 <div class="inputfield">
